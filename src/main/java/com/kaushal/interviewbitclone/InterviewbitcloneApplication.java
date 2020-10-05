@@ -11,8 +11,6 @@ public class InterviewbitcloneApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(InterviewbitcloneApplication.class, args);
-        USER user = new USER("Kaushal", Constants.Gender.MALE);
-        System.out.println(user.getName());
 
     }
 
