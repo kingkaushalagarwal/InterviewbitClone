@@ -23,6 +23,7 @@ public class UserController {
     public USER createUser(@RequestBody USER user){
         return userService.createUser(user);
     }
+
     @GetMapping("/{id}")
     public ResponseDto<USER> getUser(@PathVariable(name="id") UUID id){
         USER serviceResponse =  userService.getUser(id);
